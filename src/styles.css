@@ -1,0 +1,777 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffefd5;
+}
+
+/* INITIAL SETTİNG OF ANT DESIGN */
+
+:where(.css-dev-only-do-not-override-1hyej8k).ant-card .ant-card-body {
+  padding: 0px;
+  border-radius: 0 0 8px 8px;
+}
+
+:where(.css-dev-only-do-not-override-1hyej8k).ant-btn {
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  border-radius: 0px;
+  /* if not work do 10px */
+  text-align: center;
+}
+
+:where(.css-dev-only-do-not-override-1hyej8k) a:hover {
+  color: #f869ff;
+}
+
+/* NAVBAR PAGE CSS CODE*/
+
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  height: 80px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.logo {
+  width: auto;
+  margin-left: 120%;
+  cursor: pointer;
+}
+.left {
+  margin-right: 38%;
+}
+
+.right {
+  margin-left: 150%;
+}
+.right2 {
+  margin-left: 300%;
+}
+.blog {
+  color: #764abc;
+  border-radius: 15px;
+}
+
+.menu {
+  display: none;
+  width: 30px;
+}
+
+/* CREATE POST PAGE CSS CODE */
+
+.post-card {
+  display: flex;
+  flex-flow: column;
+  border-radius: 6px;
+  width: max-content;
+  height: max-content;
+  margin-top: 5%;
+  margin-left: 30%;
+  background-color: #ffefd5;
+  border-color: #7a7676;
+  border-style: outset;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.name {
+  text-align: center;
+  color: #764abc;
+  margin-top: 10px;
+}
+
+.input {
+  border-radius: 15px;
+  width: 500px;
+  height: 40px;
+  color: black;
+  border: 2px solid purple;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.create {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 130px;
+  height: 30px;
+  color: white;
+  background-color: #d6caea;
+  border: 2px solid rgb(80, 62, 80);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* POST PAGE CSS CODE */
+
+.card-post {
+  border-color: #7a7676;
+  border-style: outset;
+  width: 70%;
+  background-color: #ffefd5;
+  margin-top: 1rem;
+  min-height: 30rem;
+  margin: 0 auto;
+  float: none;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+
+.card-title {
+  width: 50%;
+  height: 2.5rem;
+  margin-top: 2rem;
+  border-radius: 0.25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.card-body {
+  width: 85%;
+  height: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-loading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  flex-direction: row;
+  margin-top: auto;
+}
+
+.button {
+  height: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+  bottom: 10rem;
+  width: 200px;
+}
+
+.post {
+  border-color: #7a7676;
+  border-style: outset;
+  background-color: #ffefd5;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.detail-title {
+  color: rgba(242, 135, 5, 0.946);
+  text-align: center;
+  padding: 2rem;
+}
+
+.detail-blog {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: #666666;
+  padding: 2rem;
+}
+
+.info-database {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.detail-author {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.back-button {
+  color: #080000;
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(246, 221, 189);
+}
+
+.back-button:hover {
+  background-color: rgb(248, 178, 146);
+}
+
+/* App Page CSS Code */
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.img {
+  margin-top: 0px;
+  width: 100%;
+  height: 100%;
+  padding: none;
+}
+
+.titleOne {
+  margin-top: 50px;
+  margin-left: 165px;
+  font-family: PT Sans;
+  color: black;
+}
+
+.hr {
+  margin-top: 20px;
+  margin-left: 165px;
+  margin-right: 165px;
+  margin-bottom: 50px;
+  border: 1px solid #f0f0f0;
+}
+
+.site-card-wrapper {
+  display: flex;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  margin-bottom: 20px;
+  height: fit-content;
+}
+.left-app {
+  padding-left: 0;
+  margin-left: 165px;
+}
+.right-app {
+  padding-right: 0;
+  margin-right: 165px;
+}
+.middle {
+  height: fit-content;
+}
+
+.image {
+  display: flex;
+  width: 100%;
+  height: 270px;
+}
+
+.one {
+  color: #666666;
+}
+
+.img1 {
+  object-fit: cover;
+  /* height: 270px; */
+  height: 100%;
+  width: 180px;
+}
+
+.two {
+  font-family: PT Sans;
+  font-size: 100%;
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+}
+
+.title {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.content {
+  color: #888;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.human {
+  margin-top: 10%;
+  margin-top: auto;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 13px;
+  border-radius: 100%;
+}
+
+.details {
+  display: flex;
+  gap: 0.5rem;
+  font-family: PT Sans;
+  color: #666666;
+}
+
+.ribbon {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+
+.bottom-cards {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.imgall {
+  width: 100%;
+  height: 100%;
+  flex: 0 0 auto;
+}
+
+.left-card {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.humanall {
+  padding: 5%;
+}
+
+.imgall-bottom {
+  width: 100%;
+  height: 240px;
+  flex: 0 0 auto;
+}
+
+.pagination {
+  margin-left: 550px;
+  margin-bottom: 40px;
+}
+
+.searchbar {
+  display: flex;
+  flex: auto;
+  flex-wrap: nowrap;
+}
+
+.search {
+  margin-left: 980px;
+  width: 150px;
+  margin-right: 15px;
+  border-radius: 0px;
+}
+
+.two-database {
+  font-family: PT Sans;
+  font-size: 100%;
+  color: black;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  height: 270px;
+}
+
+.new-content {
+  color: #888;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.human-database {
+  position: absolute;
+  bottom: 1.5rem;
+  width: 501px;
+}
+
+.ribbon-database {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
+
+/* MOBİLE SCREEN SETTINGS */
+
+@media only screen and (max-width: 575px) {
+  .logo {
+    margin: 20%;
+  }
+
+  nav {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: white;
+    height: calc(100vh - 640px);
+    transition: all 0.3s ease-in-out;
+  }
+  nav.active {
+    width: 280px;
+  }
+  nav ul {
+    width: 100%;
+    position: absolute;
+    right: 0;
+  }
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+  }
+  .blog {
+    margin-right: 100px;
+  }
+  .left {
+    margin-left: 113px;
+  }
+  .right {
+    margin-left: 113px;
+  }
+  .right2 {
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+  .menu {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 50%;
+  }
+  .titleOne {
+    margin-left: 20px;
+  }
+  .hr {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  :where(.css-dev-only-do-not-override-1hyej8k).ant-row {
+    display: block;
+    width: 100%;
+  }
+  :where(.css-dev-only-do-not-override-1hyej8k).ant-col {
+    display: block;
+    max-width: 90%;
+    margin-left: 15px;
+  }
+  .image {
+    flex-flow: column;
+    height: auto;
+  }
+  .img1 {
+    height: 250px;
+    width: 100%;
+  }
+
+  .card {
+    margin-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: fit-content;
+  }
+  .left-app {
+    padding-left: 0;
+  }
+  .right-app {
+    padding-right: 0;
+  }
+  .middle {
+    height: fit-content;
+  }
+
+  .pagination {
+    margin-left: 55px;
+    margin-right: 20px;
+  }
+  .searchbar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .post-card {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 373px;
+  }
+  .name {
+    margin-right: 30px;
+    margin-left: 40px;
+  }
+  .input {
+    width: 300px;
+  }
+  textarea:where(.css-dev-only-do-not-override-1hyej8k).ant-input {
+    max-width: 100%;
+    height: auto;
+    min-height: 32px;
+    line-height: 1.5714285714285714;
+    vertical-align: bottom;
+    transition: all 0.3s, height 0s;
+    resize: vertical;
+    margin-left: 5px;
+  }
+  :where(.css-dev-only-do-not-override-1hyej8k).ant-input:hover {
+    border-color: #d024c1;
+    border-inline-end-width: 1px;
+  }
+  .create {
+    margin-left: 120px;
+  }
+  .post-card-detail {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .detail-author {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .content {
+    color: #888;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 999px) and (min-width: 576px) {
+  .logo {
+    margin: 20%;
+  }
+  nav {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: white;
+    height: calc(100vh - 640px);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  nav ul {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+  }
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .blog {
+    margin-right: 100px;
+    margin-bottom: 10px;
+  }
+  .left {
+    margin-left: 113px;
+  }
+  .right {
+    margin-left: 113px;
+  }
+  .right2 {
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+  .titleOne {
+    margin-left: 20px;
+  }
+  .hr {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  :where(.css-dev-only-do-not-override-1hyej8k).ant-row {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+  :where(.css-dev-only-do-not-override-1hyej8k).ant-col {
+    display: block;
+    width: 100%;
+    max-width: 90%;
+    margin-left: 15px;
+  }
+  .image {
+    flex-flow: column;
+    height: auto;
+  }
+  .img1 {
+    height: 250px;
+    width: 100%;
+  }
+
+  .card {
+    margin-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: fit-content;
+  }
+  .left-app {
+    padding-left: 0;
+  }
+  .right-app {
+    padding-right: 0;
+  }
+  .middle {
+    height: fit-content;
+  }
+
+  .pagination {
+    margin-left: 55px;
+    margin-right: 20px;
+  }
+  .searchbar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .post-card {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 373px;
+  }
+  .name {
+    margin-right: 30px;
+    margin-left: 40px;
+  }
+  .input {
+    width: 300px;
+  }
+  textarea:where(.css-dev-only-do-not-override-1hyej8k).ant-input {
+    max-width: 100%;
+    height: auto;
+    min-height: 32px;
+    line-height: 1.5714285714285714;
+    vertical-align: bottom;
+    transition: all 0.3s, height 0s;
+    resize: vertical;
+    margin-left: 5px;
+  }
+  :where(.css-dev-only-do-not-override-1hyej8k).ant-input:hover {
+    border-color: #d024c1;
+    border-inline-end-width: 1px;
+  }
+  .create {
+    margin-left: 120px;
+  }
+  .post-card-detail {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .detail-author {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .content {
+    color: #888;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+}
+
+.post-element {
+  padding: 2rem;
+  display: grid;
+}
+
+.post {
+  border-color: #7a7676;
+  border-style: outset;
+  background-color: #ffefd5;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.detail-title {
+  color: rgba(242, 135, 5, 0.946);
+  text-align: center;
+  padding: 2rem;
+}
+
+.detail-blog {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  color: #666666;
+  padding: 2rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.detail-author {
+  color: #404040;
+}
+
+.back-button {
+  color: #080000;
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(246, 221, 189);
+}
+
+.back-button:hover {
+  background-color: rgb(248, 178, 146);
+}
+
+.post-element-loading {
+  padding: 1rem;
+  display: grid;
+  filter: blur(1px);
+}
+
+.post-loading {
+  border-color: #7a7676;
+  border-style: outset;
+  width: 70%;
+  background-color: #ffefd5;
+  margin-top: 1rem;
+  min-height: 30rem;
+}
