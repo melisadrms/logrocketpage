@@ -19,6 +19,7 @@ import Layout from "antd/es/layout/layout";
 import { Card, Col, Row } from "antd";
 import { Pagination, Input, Button } from "antd";
 import { Link } from "react-router-dom";
+import Deneme from "./pages/Deneme";
 
 function App() {
   const [postList, setPostList] = useState([]);
@@ -49,6 +50,8 @@ function App() {
     }
   }
 
+  console.log("fff");
+
   return (
     <div className="container">
       <Layout className="App">
@@ -62,6 +65,7 @@ function App() {
           width={150}
           height={40}
         />
+        <Deneme />
         <h1 className="titleOne"> Featured Posts</h1>
         <hr className="hr" />
         <div className="site-card-wrapper">

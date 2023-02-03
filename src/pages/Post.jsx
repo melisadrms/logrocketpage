@@ -27,8 +27,6 @@ const Post = () => {
     setBlog(blog);
   }, [postList, id]);
 
-  console.log(blog);
-
   if (!blog) {
     return (
       <article class="card-post">
