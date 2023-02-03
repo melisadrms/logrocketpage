@@ -294,7 +294,7 @@ nav ul li {
 
 .image {
   display: flex;
-  width: 100%;
+  width: 540px;
   height: 270px;
 }
 
@@ -304,7 +304,7 @@ nav ul li {
 
 .img1 {
   object-fit: cover;
-  /* height: 270px; */
+
   height: 100%;
   width: 180px;
 }
