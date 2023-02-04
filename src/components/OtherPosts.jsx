@@ -6,7 +6,6 @@ import all3 from "../assets/all3.png";
 import humanall3 from "../assets/humanall3.jpg";
 import ribbon from "../assets/ribbon.png";
 import "../styles.css";
-import { Card } from "antd";
 
 function ShowOtherBlog({ blog }) {
   if (blog.id === 1) {

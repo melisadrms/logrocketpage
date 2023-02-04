@@ -1,16 +1,9 @@
 import { useState } from "react";
 import logrocket from "../assets/logrocket.png";
-import ribbon from "../assets/ribbon.png";
-import all1 from "../assets/all1.png";
-import all2 from "../assets/all2.png";
-import all3 from "../assets/all3.png";
-import humanall1 from "../assets/humanall1.png";
-import humanall2 from "../assets/humanall2.png";
-import humanall3 from "../assets/humanall3.jpg";
 import "../styles.css";
 import Navbar from "../components/navbar";
 import Layout from "antd/es/layout/layout";
-import { Card, Col, Row } from "antd";
+import { Card } from "antd";
 import { Pagination, Input, Button } from "antd";
 import DatabasePosts from "../components/DatabasePosts";
 import FirstPosts from "../components/FirstPosts";
