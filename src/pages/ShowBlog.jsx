@@ -3,6 +3,8 @@ import human1 from "../assets/human1.png";
 import two from "../assets/img2.png";
 import human2 from "../assets/human2.png";
 import ribbon from "../assets/ribbon.png";
+import "../styles.css";
+import { Card, Col, Row } from "antd";
 
 function ShowBlog({ blog }) {
   if (blog.id === 1) {
@@ -12,6 +14,7 @@ function ShowBlog({ blog }) {
     blog.img = two;
     blog.avatar = human2;
   }
+
   return (
     <div className="image">
       <div className="one">

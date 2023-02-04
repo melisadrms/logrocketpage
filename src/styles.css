@@ -275,7 +275,6 @@ nav ul li {
 }
 
 .card {
-  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 2px;
   margin-bottom: 20px;
   height: fit-content;
@@ -292,8 +291,18 @@ nav ul li {
   height: fit-content;
 }
 
-.image {
+.function {
+  background-color: #f5f5f5;
+}
+
+.showBlog {
   display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+}
+
+.image {
+  display: inline-flex;
   width: 540px;
   height: 270px;
 }
@@ -304,7 +313,6 @@ nav ul li {
 
 .img1 {
   object-fit: cover;
-
   height: 100%;
   width: 180px;
 }
@@ -316,6 +324,7 @@ nav ul li {
   padding: 20px;
   display: flex;
   flex-flow: column;
+  background-color: #ffffff;
 }
 
 .title {
@@ -504,7 +513,6 @@ nav ul li {
 
   .card {
     margin-left: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 2px;
     margin-bottom: 20px;
     width: 100%;
@@ -642,7 +650,7 @@ nav ul li {
 
   .card {
     margin-left: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+
     border-radius: 2px;
     margin-bottom: 20px;
     width: 100%;

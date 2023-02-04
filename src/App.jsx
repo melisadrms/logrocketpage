@@ -49,8 +49,16 @@ function App() {
       postList2.push(postList[i]);
     }
   }
-
-  console.log("fff");
+  function Write() {
+    var array = [];
+    for (var i = 0; i < 5; i++) {
+      array.push(<Deneme />);
+      for (var j = 0; j < 2; j++) {
+        array.push(<br></br>);
+      }
+    }
+    return array;
+  }
 
   return (
     <div className="container">
@@ -68,8 +76,9 @@ function App() {
 
         <h1 className="titleOne"> Featured Posts</h1>
         <hr className="hr" />
-        <Card className="card left-app right-app">
-          <Deneme />
+
+        <Card className="card left-app right-app function">
+          <Write />
         </Card>
 
         <div className="site-card-wrapper">
