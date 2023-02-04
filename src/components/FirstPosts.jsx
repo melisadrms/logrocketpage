@@ -1,6 +1,6 @@
 import Blog from "./ArticlesData";
 
-const Deneme = () => {
+const FirstPosts = () => {
   return (
     <div>
       <Blog />
@@ -8,4 +8,4 @@ const Deneme = () => {
   );
 };
 
-export default Deneme;
+export default FirstPosts;

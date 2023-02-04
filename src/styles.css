@@ -301,6 +301,17 @@ nav ul li {
   background-color: #f5f5f5;
 }
 
+.other-posts {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  gap: 1rem;
+}
+
+.all {
+  background-color: #ffffff;
+}
+
 .image {
   display: inline-flex;
   width: 540px;
@@ -515,7 +526,6 @@ nav ul li {
     margin-left: 20px;
     border-radius: 2px;
     margin-bottom: 20px;
-    width: 100%;
     height: fit-content;
   }
   .left-app {
@@ -523,9 +533,6 @@ nav ul li {
   }
   .right-app {
     padding-right: 0;
-  }
-  .middle {
-    height: fit-content;
   }
 
   .pagination {
