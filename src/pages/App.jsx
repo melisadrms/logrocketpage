@@ -1,25 +1,21 @@
 import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
-import { db } from "../firebase-config";
-import logrocket from "./assets/logrocket.png";
-import one from "./assets/img1.png";
-import human1 from "./assets/human1.png";
-import human2 from "./assets/human2.png";
-import ribbon from "./assets/ribbon.png";
-import two from "./assets/img2.png";
-import all1 from "./assets/all1.png";
-import all2 from "./assets/all2.png";
-import all3 from "./assets/all3.png";
-import humanall1 from "./assets/humanall1.png";
-import humanall2 from "./assets/humanall2.png";
-import humanall3 from "./assets/humanall3.jpg";
-import "./styles.css";
-import Navbar from "./comp/navbar";
+import { db } from "../../firebase-config";
+import logrocket from "../assets/logrocket.png";
+import ribbon from "../assets/ribbon.png";
+import all1 from "../assets/all1.png";
+import all2 from "../assets/all2.png";
+import all3 from "../assets/all3.png";
+import humanall1 from "../assets/humanall1.png";
+import humanall2 from "../assets/humanall2.png";
+import humanall3 from "../assets/humanall3.jpg";
+import "../styles.css";
+import Navbar from "../components/navbar";
 import Layout from "antd/es/layout/layout";
 import { Card, Col, Row } from "antd";
 import { Pagination, Input, Button } from "antd";
 import { Link } from "react-router-dom";
-import Deneme from "./pages/Deneme";
+import Deneme from "../components/Deneme";
 
 function App() {
   const [postList, setPostList] = useState([]);

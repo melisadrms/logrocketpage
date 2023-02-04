@@ -4,7 +4,6 @@ import two from "../assets/img2.png";
 import human2 from "../assets/human2.png";
 import ribbon from "../assets/ribbon.png";
 import "../styles.css";
-import { Card, Col, Row } from "antd";
 
 function ShowBlog({ blog }) {
   if (blog.id === 1) {
