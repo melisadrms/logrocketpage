@@ -49,6 +49,12 @@ function OtherBlogs() {
       {otherblogs.map((blog) => {
         return <ShowOtherBlog key={blog.id} blog={blog} />;
       })}
+      {otherblogs.map((blog) => {
+        return <ShowOtherBlog key={blog.id} blog={blog} />;
+      })}
+      {otherblogs.map((blog) => {
+        return <ShowOtherBlog key={blog.id} blog={blog} />;
+      })}
     </div>
   );
 }

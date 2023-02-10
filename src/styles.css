@@ -296,14 +296,15 @@ nav ul li {
 }
 
 .showBlog {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   background-color: #f5f5f5;
+  gap: 1.8rem;
 }
 
 .other-posts {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   background-color: #f5f5f5;
   gap: 1rem;
 }

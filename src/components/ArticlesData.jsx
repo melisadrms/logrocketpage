@@ -5,6 +5,7 @@ import human1 from "../assets/human1.png";
 import two from "../assets/img2.png";
 import human2 from "../assets/human2.png";
 import "../styles.css";
+
 function Blog() {
   const blogs = [
     {
@@ -33,6 +34,12 @@ function Blog() {
 
   return (
     <div className="showBlog">
+      {blogs.map((blog) => {
+        return <ShowBlog key={blog.id} blog={blog} />;
+      })}
+      {blogs.map((blog) => {
+        return <ShowBlog key={blog.id} blog={blog} />;
+      })}
       {blogs.map((blog) => {
         return <ShowBlog key={blog.id} blog={blog} />;
       })}

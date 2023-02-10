@@ -6,8 +6,8 @@ import Layout from "antd/es/layout/layout";
 import { Card } from "antd";
 import { Pagination, Input, Button } from "antd";
 import DatabasePosts from "../components/DatabasePosts";
-import FirstPosts from "../components/FirstPosts";
-import Posts from "../components/3Posts";
+import Blog from "../components/ArticlesData";
+import OtherBlogs from "../components/OtherArticData";
 
 function App() {
   const [current, setCurrent] = useState(3);
@@ -17,34 +17,11 @@ function App() {
     setCurrent(page);
   };
 
-  function Write() {
-    var array = [];
-    for (var i = 0; i < 5; i++) {
-      array.push(<FirstPosts />);
-      for (var j = 0; j < 2; j++) {
-        array.push(<br></br>);
-      }
-    }
-    return array;
-  }
-
-  function Write2() {
-    var array = [];
-    for (var i = 0; i < 3; i++) {
-      array.push(<Posts />);
-      for (var j = 0; j < 2; j++) {
-        array.push(<br></br>);
-      }
-    }
-    return array;
-  }
-
   return (
     <div className="container">
       <Layout className="App">
-        <div>
-          <Navbar />
-        </div>
+        <Navbar />
+
         <img
           className="img"
           src={logrocket}
@@ -57,7 +34,7 @@ function App() {
         <hr className="hr" />
 
         <Card className="card left-app right-app function">
-          <Write />
+          <Blog />
         </Card>
 
         <DatabasePosts />
@@ -65,7 +42,7 @@ function App() {
         <h1 className="titleOne"> All Stories </h1>
         <hr className="hr" />
         <Card className="card left-app right-app function">
-          <Write2 />
+          <OtherBlogs />
         </Card>
         <div>
           <hr className="hr" />
